@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'y*73=j8$!2$7n$8ifd*#&=_-qkl-ufzq#43spiqxrlnnmwi_n6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['covict.herokuapp.com','127.0.0.1']
 
 
 # Application definition

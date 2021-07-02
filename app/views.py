@@ -18,6 +18,13 @@ model = load_model('./models/model.h5')
 
 @api_view(["POST"])
 def predictImage(request):
+    #print('1.....................')
+    #print(request)
+    #print('2.....................')
+    #print(request.POST)
+    #print('3.....................')
+    #print(request.FILES)
+    #print('4.....................')
     fileObj=request.FILES['filePath']
     fs=FileSystemStorage()
     filePathName=fs.save(fileObj.name,fileObj)

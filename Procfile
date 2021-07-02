@@ -1,0 +1,1 @@
+web: gunicorn covict.wsgi --log-file -
